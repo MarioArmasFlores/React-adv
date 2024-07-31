@@ -12,7 +12,6 @@ export const Navigation = () => {
         <div className="main-layout">
           <nav>
             <img src={logo} alt="Logo" />
-
             <ul>
               {routes.map(({ to, name }) => (
                 <li key={name}>
